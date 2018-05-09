@@ -1,0 +1,6 @@
+{
+  "parent": "block/inventory",
+  "textures": {
+    "texture": "torch:blocks/torch"
+  }
+}

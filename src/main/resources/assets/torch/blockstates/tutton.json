@@ -1,0 +1,10 @@
+{
+  "variants" : {
+        "normal" : {"model": "torch:tutton"},
+        "facing=up": {"model": "torch:tutton"},
+        "facing=east": {"model": "torch:tutton"},
+        "facing=south": {"model": "torch:tutton", "y": 90},
+        "facing=west": {"model": "torch:tutton", "y": 180},
+        "facing=north": {"model": "torch:tutton", "y": 270}
+  }
+}
