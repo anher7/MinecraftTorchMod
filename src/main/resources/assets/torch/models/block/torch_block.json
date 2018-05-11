@@ -1,6 +1,6 @@
 {
   "parent" : "block/cube_all",
   "textures": {
-    "all": "torch:blocks/buttonblock"
+    "all": "torch:blocks/torchblock"
   }
 }

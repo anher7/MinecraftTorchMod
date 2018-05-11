@@ -1,0 +1,10 @@
+{
+  "variants" : {
+        "normal" : {"model": "torch:hidden_torch"},
+        "facing=up": {"model": "torch:hidden_torch"},
+        "facing=east": {"model": "torch:hidden_torch"},
+        "facing=south": {"model": "torch:hidden_torch", "y": 90},
+        "facing=west": {"model": "torch:hidden_torch", "y": 180},
+        "facing=north": {"model": "torch:hidden_torch", "y": 270}
+  }
+}

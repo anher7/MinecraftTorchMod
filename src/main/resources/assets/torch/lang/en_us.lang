@@ -1,10 +1,7 @@
-//Items
-//item.torch_button.name=Button Torch
-
 //Block
-tile.button_block.name=Button Block
-tile.tutton.name=Tutton
+tile.torch_block.name=Torch Block
+tile.hidden_torch.name=Hidden Torch
 
 
 //CreativeTabs
-itemGroup.tutton=Torch Tab
+itemGroup.torch=Torch Tab

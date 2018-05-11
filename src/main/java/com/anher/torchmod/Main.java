@@ -1,6 +1,6 @@
 package com.anher.torchmod;
 
-import com.anher.torchmod.blocks.Tutton;
+import com.anher.torchmod.blocks.HiddenTorch;
 import com.anher.torchmod.init.ModBlocks;
 import com.anher.torchmod.init.ModCrafting;
 import com.anher.torchmod.proxy.CommonProxy;
@@ -13,8 +13,6 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-
-import javax.swing.plaf.basic.BasicComboBoxUI;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main {
@@ -40,15 +38,11 @@ public class Main {
 
     }
 
-    public static CreativeTabs torchTab = new CreativeTabs("tutton") {
+    public static CreativeTabs torchTab = new CreativeTabs("torch") {
         @Override
         public ItemStack getTabIconItem() {
             return new ItemStack(ModBlocks.Button_Block);
         }
     };
 
-    @SubscribeEvent
-    public static void tuttonEvent(Tutton event) {
-        System.out.println("Tutton is picked up!");
-    }
 }

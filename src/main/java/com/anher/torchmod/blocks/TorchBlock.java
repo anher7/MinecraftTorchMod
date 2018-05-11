@@ -4,15 +4,15 @@ import com.anher.torchmod.Main;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
-public class ButtonBlock extends BlockBase {
-    public ButtonBlock(String name, Material material) {
+public class TorchBlock extends BlockBase {
+    public TorchBlock(String name, Material material) {
         super(name, material);
 
         setSoundType(SoundType.STONE);
         setHardness(1.0F);
         setResistance(15.0F);
         setHarvestLevel("pickaxe", 1);
-        setLightLevel(0.2F);
+        setLightLevel(20.2F);
         setLightOpacity(0);
         setCreativeTab(Main.torchTab);
     }
