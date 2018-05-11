@@ -1,6 +1,5 @@
 package com.anher.torchmod;
 
-import com.anher.torchmod.blocks.HiddenTorch;
 import com.anher.torchmod.init.ModBlocks;
 import com.anher.torchmod.init.ModCrafting;
 import com.anher.torchmod.proxy.CommonProxy;
@@ -12,13 +11,12 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
-public class Main {
+public class Torch {
 
     @Mod.Instance
-    public static Main instance;
+    public static Torch instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXT_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
     public static CommonProxy proxy;

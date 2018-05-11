@@ -1,6 +1,6 @@
 package com.anher.torchmod.blocks;
 
-import com.anher.torchmod.Main;
+import com.anher.torchmod.Torch;
 import com.anher.torchmod.init.ModBlocks;
 import com.anher.torchmod.init.ModItems;
 import net.minecraft.block.BlockTorch;
@@ -21,7 +21,7 @@ public class HiddenTorch extends BlockTorch {
         super();
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(Main.torchTab);
+        setCreativeTab(Torch.torchTab);
         setCreativeTab(CreativeTabs.TOOLS);
         setLightLevel(1.0F);
         setLightOpacity(1);

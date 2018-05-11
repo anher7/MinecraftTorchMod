@@ -1,6 +1,6 @@
 package com.anher.torchmod.blocks;
 
-import com.anher.torchmod.Main;
+import com.anher.torchmod.Torch;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
@@ -14,6 +14,6 @@ public class TorchBlock extends BlockBase {
         setHarvestLevel("pickaxe", 1);
         setLightLevel(20.2F);
         setLightOpacity(0);
-        setCreativeTab(Main.torchTab);
+        setCreativeTab(Torch.torchTab);
     }
 }

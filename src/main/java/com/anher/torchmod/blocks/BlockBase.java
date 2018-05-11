@@ -1,6 +1,6 @@
 package com.anher.torchmod.blocks;
 
-import com.anher.torchmod.Main;
+import com.anher.torchmod.Torch;
 import com.anher.torchmod.init.ModBlocks;
 import com.anher.torchmod.init.ModItems;
 import com.anher.torchmod.util.IHasModel;
@@ -24,6 +24,6 @@ public class BlockBase extends Block implements IHasModel {
 
     @Override
     public void registerModels() {
-        Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+        Torch.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
 }

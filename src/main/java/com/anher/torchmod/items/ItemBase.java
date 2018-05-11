@@ -1,6 +1,6 @@
 //package com.anher.torchmod.items;
 //
-//import com.anher.torchmod.Main;
+//import com.anher.torchmod.Torch;
 //import com.anher.torchmod.init.ModItems;
 //import com.anher.torchmod.util.IHasModel;
 //import net.minecraft.creativetab.CreativeTabs;
@@ -12,13 +12,13 @@
 //        setUnlocalizedName(name);
 //        setRegistryName(name);
 //        setCreativeTab(CreativeTabs.TOOLS);
-//        setCreativeTab(Main.torchTab);
+//        setCreativeTab(Torch.torchTab);
 //
 //        ModItems.ITEMS.add(this);
 //    }
 //
 //    @Override
 //    public void registerModels() {
-//        Main.proxy.registerItemRenderer(this, 0, "inventory");
+//        Torch.proxy.registerItemRenderer(this, 0, "inventory");
 //    }
 //}
