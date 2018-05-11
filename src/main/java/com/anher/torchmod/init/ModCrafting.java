@@ -8,7 +8,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModCrafting {
 
+    //Here are the crafting recipes
     public static void register() {
+
+        //Shaped crafting recipe for our Torch Block
         GameRegistry.addShapedRecipe(new ResourceLocation("torch_block"),
                 new ResourceLocation("blocks"),
                 new ItemStack(ModBlocks.Button_Block, 1),
@@ -18,6 +21,7 @@ public class ModCrafting {
                          'C', Blocks.COBBLESTONE,
                          'T', Blocks.TORCH);
 
+        //Shapeless recipe for our hidden Torch
         GameRegistry.addShapelessRecipe(new ResourceLocation("torch"),
                 new ResourceLocation("stone_button"),
                 new ItemStack(ModBlocks.Hidden_Torch),

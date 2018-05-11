@@ -17,6 +17,7 @@ import net.minecraft.world.World;
 
 public class HiddenTorch extends BlockTorch {
 
+    //Make a Hidden Torch Block by extending BlockTorch and change some values
     public HiddenTorch(String name, Material material) {
         super();
         setUnlocalizedName(name);

@@ -18,6 +18,7 @@ public class Torch {
     @Mod.Instance
     public static Torch instance;
 
+    //Configure mod info according to the Reference class
     @SidedProxy(clientSide = Reference.CLIENT_PROXT_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
     public static CommonProxy proxy;
 
@@ -28,6 +29,7 @@ public class Torch {
 
     @Mod.EventHandler
         public static void init(FMLInitializationEvent event){
+        //Initialize Crafting recipes class
         ModCrafting.register();
     }
 
@@ -36,6 +38,7 @@ public class Torch {
 
     }
 
+    //Creative Tab and it's icon
     public static CreativeTabs torchTab = new CreativeTabs("torch") {
         @Override
         public ItemStack getTabIconItem() {

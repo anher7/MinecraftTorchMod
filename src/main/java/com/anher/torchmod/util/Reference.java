@@ -2,6 +2,7 @@ package com.anher.torchmod.util;
 
 public class Reference {
 
+    //set the default properties of the mod
     public static final String MOD_ID = "torch";
     public static final String NAME = "Torch Mod";
     public static final String VERSION = "1.0";

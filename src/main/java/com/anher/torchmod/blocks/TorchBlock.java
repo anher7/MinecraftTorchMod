@@ -5,6 +5,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
 public class TorchBlock extends BlockBase {
+
+    //Make a Torch Block with some properties
     public TorchBlock(String name, Material material) {
         super(name, material);
 

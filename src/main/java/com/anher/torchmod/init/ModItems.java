@@ -10,6 +10,7 @@ import java.util.List;
 
 public class ModItems {
 
+    //In case we need to create an item
     public static final List<Item> ITEMS = new ArrayList<Item>();
 //    public static final Item HiddenTorch = new ItemBase("hidden_torch.json");
 }

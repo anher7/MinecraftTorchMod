@@ -7,7 +7,8 @@
 //import net.minecraft.item.Item;
 //
 //public class ItemBase extends Item implements IHasModel {
-//
+
+//    //In case we need to create an item
 //    public ItemBase(String name){
 //        setUnlocalizedName(name);
 //        setRegistryName(name);

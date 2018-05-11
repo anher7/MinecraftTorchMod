@@ -10,6 +10,7 @@ import net.minecraft.block.material.Material;
 
 public class ModBlocks {
 
+    //Initializing the blocks we have made
     public static final List<Block> BLOCKS = new ArrayList<Block>();
 
     public static final Block Button_Block = new TorchBlock("torch_block", Material.GROUND);
